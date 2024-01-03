@@ -1,0 +1,21 @@
+.container{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.titulo__footer{
+    font-size: 1.5rem;
+}
+.bold{
+    font-weight: bold;
+}
+.date__footer{
+    font-size: 1.3rem;
+}
+@media (min-width: 768px){
+    .container{
+        height: 120px;
+    }
+}

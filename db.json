@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "nombre": "Teclado Logitech",
+      "precio": "1200",
+      "url__img": "https://2.bp.blogspot.com/-6i-29jQoOoM/VEk9ku19JiI/AAAAAAAAAB8/Cd1an7-grJA/s1600/teclado%2Babnt.jpg",
+      "descripcion": "Teclado Gamer RGB Logitech",
+      "categoria": "Electronic",
+      "id": "c4425ab7-acb9-4b31-87ae-6d156a06c208"
+    },
+    {
+      "nombre": "Airpods",
+      "precio": "1359",
+      "url__img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1572990352299",
+      "descripcion": "Airpods blancos",
+      "categoria": "Electronic",
+      "id": "6cae218c-e584-4fa7-ac49-bdeb87eef38a"
+    },
+    {
+      "nombre": "Mouse",
+      "precio": "759",
+      "url__img": "https://www.bhphotovideo.com/images/images2500x2500/logitech_910_005790_g203_lightsync_gaming_mouse_1574402.jpg",
+      "descripcion": "Mouse Alambrico negro Logitech",
+      "categoria": "Electronic",
+      "id": "e8157b9c-2a8c-4e89-801a-ea473fe17ed6"
+    },
+    {
+      "nombre": "Escritorio",
+      "precio": "1789",
+      "url__img": "https://ciudad-muebles.com.ar/wp-content/uploads/2020/04/Escritorio-cajonero-1.jpg",
+      "descripcion": "Escritorio para oficina, hogar",
+      "categoria": "Home",
+      "id": "6ab59604-ee09-491a-a124-8a0241cd88ee"
+    },
+    {
+      "nombre": "Xbox ONE",
+      "precio": "10579",
+      "url__img": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2016/10/xbox-one-s-12-1.jpg",
+      "descripcion": "Xbox ONE 1TB co 2 juegos y un mando",
+      "categoria": "Electronic",
+      "id": "8303bd31-5f0f-4acb-974b-69c01f4450b6"
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "precio": "15899",
+      "url__img": "https://sm.ign.com/ign_latam/screenshot/h/high-resol/high-resolution-images-of-nintendo-switch_bgyj.jpg",
+      "descripcion": "Nintendo Switch",
+      "categoria": "Electronic",
+      "id": "973f9693-0287-42e9-9925-7d858ecc1103"
+    },
+    {
+      "nombre": "Camiseta T1",
+      "precio": "1250",
+      "url__img": "https://banzika.com.br/image/cache/catalog/2022/1few5rq-1000x1000.jpg",
+      "descripcion": "Camiseta T1",
+      "categoria": "Cloth",
+      "id": "99b94131-75e6-4b56-9ec1-ed3a3a822ef8"
+    },
+    {
+      "nombre": "Audiifonos B",
+      "precio": "3500",
+      "url__img": "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dw8cc5e75e/images/39732960/large/39732960_x1.jpg",
+      "descripcion": "Audifonos B inalambricos",
+      "categoria": "Electronic",
+      "id": "cb9e7258-a667-493f-8abc-29eaa5394af0"
+    },
+    {
+      "nombre": "Silla Gamer",
+      "precio": "2500",
+      "url__img": "https://i.pinimg.com/originals/6a/2e/85/6a2e85b31d26007e9a8ad6243fd07ee0.jpg",
+      "descripcion": "Silla gamer",
+      "categoria": "Home",
+      "id": "310190f8-6a48-42a0-8d64-73d2e9535776"
+    }
+  ]
+}

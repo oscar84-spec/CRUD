@@ -1,0 +1,63 @@
+body{
+    background-color: #d5e6eb;
+}
+.header__container{
+    background-color: #fff;
+}
+
+.contenedor{
+    /* border: black solid; */
+    width: 100vw;
+    /* background-color: #d1d1d1; */
+}
+.container__registro{
+    /* border: red solid; */
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    background-color: #f5f9fa;
+    width: 90vw;
+    border-radius: 20px;
+}
+.icon__ok{
+    /* border: blueviolet solid; */
+    width: 55px;
+    height: 55px;
+    background: center no-repeat;
+    background-size: contain;
+}
+.icon__ok--img{
+    background-image: url(/icon/marque-dentro-del-circulo.png);
+}
+.titulo{
+    font-size: 1.5rem;
+}
+.ver__productos{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #9dccd4;
+}
+@media (min-width: 768px){
+    .container__registro{
+        width: 70vw;
+        box-shadow: 2px 2px 2px #8b8b8b;
+    }
+    .ver__productos{
+        cursor: pointer;
+    }
+}
+@media (min-width: 1024px) {
+    .container__registro{
+        width: 30vw;
+        height: 300px;
+    }
+    .ver__productos{
+        cursor: pointer;
+    }
+}

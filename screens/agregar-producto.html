@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header/header.css">
+    <link rel="stylesheet" href="/css/formulario/formulario.css">
+</head>
+
+<body>
+    <header class="header__container" data-header>
+        <div class="container__logo container__logo--img"></div>
+        <div class="menu__buscador">
+            <a href="/screens/Productos.html">
+                <button type="button" class="menu__btnAdmin">Menú Administrador</button>
+            </a>
+            <div class="buscador__icon">
+                <input type="search" name="buscador" id="buscador" class="buscador">
+                <div class="icon icon--img"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container__form">
+            <h1 class="titulo__form">Agregar Producto</h1>
+            <form action="" class="formulario" data-form>
+                <fieldset>
+                    <div class="input-container">
+                     <input name="name" id="name" class="input" type="text" placeholder="url" required data-url>
+                        <label class="input-label" for="name">Url de la Imagen</label>
+                        <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                    </div>
+                    <select name="" id="" class="select" data-categoria>
+                        <option value="Home" class="opciones">Home</option>
+                        <option value="Electronic" class="opciones">Electronic</option>
+                        <option value="Cloth" class="opciones">Cloth</option>
+                    </select>
+                    <div class="input-container">
+                        <input name="nombre" id="nombre" class="input" type="text" placeholder="nombre" required data-nombre>
+                        <label class="input-label" for="nombre">Nombre del Producto</label>
+                        <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                    </div>
+                    <div class="input-container">
+                        <input name="precio" id="precio" class="input" type="number" placeholder="precio" data-precio>
+                        <label class="input-label" for="precio">Precio del Producto</label>
+                        <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                    </div>
+                </fieldset>
+                <textarea name="desc" id="" cols="30" rows="10" class="desc" placeholder="descripción del producto" data-desc></textarea>
+                <button type="submit" class="prod__btn">Agregar Producto</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/controllers/registroProducto.js" type="module"></script>
+</body>
+
+</html>

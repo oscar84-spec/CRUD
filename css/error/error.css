@@ -1,0 +1,55 @@
+body{
+    background-color: #ffc4c4;
+}
+.header__container{
+    background-color: #fff;
+}
+.contenedor{
+    width: 100vw;
+    height: 500px;
+}
+.container__registro{
+    width: 90vw;
+    margin: 35px auto;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f1f1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #bdb1b1;
+}
+.icon__ok{
+    width: 55px;
+    height: 55px;
+}
+.icon__ok--img{
+    background-image: url(/icon/circle-exclamation-solid.svg);
+}
+.titulo{
+    font-size: 1.3rem;
+}
+.regresar{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff8484;
+    font-size: 1.2rem;
+}
+@media (min-width:768px) {
+    .container__registro{
+        width: 70vw;
+    }
+}
+@media (min-width:1024px){
+    .container__registro{
+        width: 30vw;
+    }
+    .regresar:hover{
+        cursor: pointer;
+        background-color: #ff4646;
+    }
+}

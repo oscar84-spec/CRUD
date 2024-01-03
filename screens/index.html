@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Esports</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header/header.css">
+    <link rel="stylesheet" href="/css/productos_home/home.css">
+    <link rel="stylesheet" href="/css/productos_home/formulario.css">
+    <link rel="stylesheet" href="/css/footer/footer.css">
+</head>
+<body>
+    <header class="header__container" data-prod>
+        <div class="container__logo container__logo--img"></div>
+    </header>
+    <main>
+        <div class="banner__container banner__img">
+            <h1 class="banner__titulo">La mejores ofertas estan aquí</h1>
+            <p class="parrafo">Todos nuestros productos con un <span class="bold">50% de descuento</span></p>
+            <button type="button" class="btn__prod">Ver prodcutos</button>
+        </div>
+        <section class="productos">
+            <div class="titulo">
+                <h2 class="categoria">Electronic</h2>
+                <a href="#" class="link__prodcutos">ver productos</a>
+            </div>
+            <div class="container__productos" data-contenedor>
+                
+            </div>
+        </section>
+        <section class="productos">
+            <div class="titulo">
+                <h2 class="categoria">Home</h2>
+                <a href="#" class="link__prodcutos">ver productos</a>
+            </div>
+            <div class="container__productos" data-home>
+            </div>
+        </section>
+        <section class="productos">
+            <div class="titulo">
+                <h2 class="categoria">Cloth</h2>
+                <a href="#" class="link__prodcutos">ver productos</a>
+            </div>
+            <div class="container__productos" data-cloth>
+            </div>
+        </section>
+        <section class="form">
+            <div class="logo__lista">
+                <div class="logo__container logo__container--img"></div>
+                <ul class="lista">
+                    <li class="link"><a href="#">Quienes Somos</a></li>
+                    <li class="link"><a href="#">Politica de privacidad</a></li>
+                    <li class="link"><a href="#">Programas de fidelidad</a></li>
+                    <li class="link"><a href="#">Nuestras tiendas</a></li>
+                    <li class="link"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="link"><a href="#">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="formulario">
+                <h2 class="form__titulo">Habla con nosotros: </h2>
+                <div class="container__input">
+                    <input type="text" name="name" id="name" class="nombre" placeholder="Nombre">
+                    <label for="name" class="input__label">Nombre</label>
+                </div>
+                <textarea name="msj" id="ms" cols="30" rows="10" class="msj" placeholder="Escriba su Mensaje"></textarea>
+                <button type="submit" class="btn__enviar">Enviar Mensaje</button>
+            </div>
+        </section>
+        <footer class="container">
+            <h1 class="titulo__footer">Desarrollado por: <span class="bold">Oscar Hernández</span></h1>
+            <p class="date__footer">2023</p>
+        </footer>
+    </main>
+    <script src="/templates/header.js"></script>
+    <script type="module" src="/controllers/prod_home.js"></script>
+</body>
+</html>
