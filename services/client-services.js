@@ -1,7 +1,7 @@
 const listaProductos = () =>
-  fetch("https://api-json-server-five.vercel.app/productos").then((respuesta) =>
-    respuesta.json()
-  );
+  fetch(
+    "https://api-json-server-3e7tmvxao-oscar84-spec.vercel.app/productos"
+  ).then((respuesta) => respuesta.json());
 
 const nuevoProducto = (nombre, precio, url__img, descripcion, categoria) => {
   return fetch("https://api-json-server-five.vercel.app/productos", {
