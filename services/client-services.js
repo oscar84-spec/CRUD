@@ -1,10 +1,10 @@
 const listaProductos = () =>
-  fetch("https://api-json-server-five.vercel.app/productos").then((respuesta) =>
+  fetch("https://api-ecommerce-hazel.vercel.app/productos").then((respuesta) =>
     respuesta.json()
   );
 
 const nuevoProducto = (nombre, precio, url__img, descripcion, categoria) => {
-  return fetch("https://api-json-server-five.vercel.app/productos", {
+  return fetch("https://api-ecommerce-hazel.vercel.app/productos", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -22,13 +22,13 @@ const nuevoProducto = (nombre, precio, url__img, descripcion, categoria) => {
 
 const eliminarProd = (id) => {
   console.log("eliminar a: ", id);
-  return fetch(`https://api-json-server-five.vercel.app/productos/${id} `, {
+  return fetch(`https://api-ecommerce-hazel.vercel.app/productos/${id} `, {
     method: "DELETE",
   });
 };
 
 const verProducto = (id) => {
-  return fetch(`https://api-json-server-five.vercel.app/productos/${id}`).then(
+  return fetch(`https://api-ecommerce-hazel.vercel.app/productos/${id}`).then(
     (respuesta) => respuesta.json()
   );
 };
@@ -41,7 +41,7 @@ const actulizarProd = (
   categoria,
   id
 ) => {
-  return fetch(`https://api-json-server-five.vercel.app/productos/${id}`, {
+  return fetch(`https://api-ecommerce-hazel.vercel.app/productos/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
